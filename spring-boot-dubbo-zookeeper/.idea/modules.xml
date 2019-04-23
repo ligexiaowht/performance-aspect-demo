@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-dubbo-zookeeper.iml" filepath="$PROJECT_DIR$/spring-boot-dubbo-zookeeper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-dubbo-zookeeper-base-interface/spring-boot-dubbo-zookeeper-base-interface.iml" filepath="$PROJECT_DIR$/spring-boot-dubbo-zookeeper-base-interface/spring-boot-dubbo-zookeeper-base-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-dubbo-zookeeper-consumer/spring-boot-dubbo-zookeeper-consumer.iml" filepath="$PROJECT_DIR$/spring-boot-dubbo-zookeeper-consumer/spring-boot-dubbo-zookeeper-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-dubbo-zookeeper-provider/spring-boot-dubbo-zookeeper-provider.iml" filepath="$PROJECT_DIR$/spring-boot-dubbo-zookeeper-provider/spring-boot-dubbo-zookeeper-provider.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: tom-dubbo-provider
+server:
+  port: 9090
+dubbo:
+  registry:
+    protocol: zookeeper
+    address: 192.168.60.214:2181
+    id: tom-registry-provider
+  protocol:
+    port: 20880
+    name: dubbo
+    id: dubbo
+    status: server
+  application:
+    name: tom-dubbo-provider
+    id: tom-dubbo-provider-id
+    qos-enable: true
+    qos-port: 22222
+  scan:
+    basePackages: com.yi.provider.service
+hello:
+  service:
+    version: 1.0.0
